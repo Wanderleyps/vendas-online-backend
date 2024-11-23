@@ -1,4 +1,3 @@
-import { CityEntity } from 'src/city/entities/city.entity';
 import {
   Column,
   CreateDateColumn,
@@ -7,6 +6,7 @@ import {
   PrimaryGeneratedColumn,
   UpdateDateColumn,
 } from 'typeorm';
+import { CityEntity } from '../../city/entities/city.entity';
 
 @Entity({ name: 'state' })
 export class StateEntity {
